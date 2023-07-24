@@ -146,11 +146,11 @@ nav{
     font-weight: 800; 
     margin-bottom: 16px;  
 }
-.online-games-container .heading-para{
+.heading-para{
     color: #534C64;
     text-align: center;
     font-family: Work Sans;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     margin-bottom: 48px;
 }
@@ -160,7 +160,7 @@ nav{
     align-items: center;
 }
 .cards-content p{
-    width: 340px;
+    width: 300px;
     color: #534C64;
     font-family: Work Sans;
     font-size: 20px;

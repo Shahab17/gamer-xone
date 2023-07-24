@@ -1,5 +1,5 @@
 @media screen and (max-width: 576px) {
-    nav, .menus{
+    nav, .menus, .cards-container{
         flex-direction: column;
     }
     .banner-container{
@@ -21,13 +21,28 @@
         margin-left: 14px;
          
     }
+    .online-games-container h2{
+        font-size: 30px;
+    }
+   
     
 }
 
 /* for tablet screen */
 @media screen and (min-width: 576px) and (max-width: 992px) {
+    nav{
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+    .menus{
+        gap: 15px;
+    }
     .banner-container{
         flex-direction: column-reverse;
+    }
+    .cards-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);   
     }
     
 }
