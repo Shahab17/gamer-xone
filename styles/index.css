@@ -1,0 +1,78 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;  
+}
+/* common used styles */
+:root{
+    --primary-color: rgba(146, 104, 26, 0.836);
+}
+
+.btn{
+    font-size: 18px;
+    padding: 10px 15px;
+    background:rgba(146, 104, 26, 0.836);
+    border-radius: 5px;
+    border: 0;
+    color: rgb(0, 0, 0);
+    
+}
+.btn:hover{
+    background-color: aqua;
+    cursor:grab;
+}
+
+
+
+
+/* navbar related styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.gamer-logo{
+    display: flex;
+    align-items: center;
+    
+}
+.pri-color{
+    color: var(--primary-color);
+}
+.gamer-logo img{
+    height: max-content;
+    margin-right: 20px;
+}
+.gamer-logo h2{
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+.menus{
+    display: flex;
+    gap: 36px; 
+    align-items: center;
+}
+.menus li{
+    list-style: none;
+    color: #3C354F;
+    font-family: Work Sans;
+    font-size: 20px;
+
+}
+.follow-icons{
+    padding: 16px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.one{
+    margin-right: 16px;
+    margin-left: 24px;
+    color: red;
+}
