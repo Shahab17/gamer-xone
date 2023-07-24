@@ -2,7 +2,7 @@
     nav, .menus, .cards-container{
         flex-direction: column;
     }
-    .banner-container{
+    .banner-container, .play-games-container{
         flex-direction: column-reverse;
     }
     .banner-img img{
@@ -24,6 +24,22 @@
     .online-games-container h2{
         font-size: 30px;
     }
+    .play-games-img img{
+        width: 250px;
+        height: 300px;
+    }
+    .play-games-img .cat{
+        width: 100px;
+        height: 150px;
+    }
+    .play-para{
+        width: 300px;
+        margin: auto;
+        
+    }
+    .play-games-content{
+        text-align: center;
+    }
    
     
 }
@@ -37,12 +53,13 @@
     .menus{
         gap: 15px;
     }
-    .banner-container{
+    .banner-container, .play-games-container{
         flex-direction: column-reverse;
     }
     .cards-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);   
     }
+    
     
 }
