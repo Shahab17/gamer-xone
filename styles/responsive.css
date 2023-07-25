@@ -52,8 +52,6 @@
     }
     .footer-menus li{
         margin:  10px;
-        /* margin-right: 10px;
-        margin-bottom: 10px; */
         font-size: 12px;
     }
     .footer-icons{
@@ -95,6 +93,17 @@
     .cards-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);   
+    }
+    .footer-menus li{
+        margin:  20px;
+        font-size: 12px;
+    }
+    .footer-icons span{
+        margin: 15px;
+     }
+     .footer-cookie li {
+        margin: 10px;
+        font-size: 12px;
     }
     
     
