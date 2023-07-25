@@ -74,6 +74,19 @@
         margin: 10px;
         font-size: 12px;
     }
+    .buttons-container{
+        margin-top: 100px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .button-content button{
+        font-size: 8px;
+        padding: 5px;
+    }
+    .button-content button img{
+        height: 20px;
+        margin-right: 5px;
+    }
     
     
 }
@@ -104,6 +117,15 @@
      .footer-cookie li {
         margin: 10px;
         font-size: 12px;
+    }
+    .buttons-container{
+        margin-top: 200px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .button-content button{
+        font-size: 16px;
+        padding: 5px 10px;
     }
     
     

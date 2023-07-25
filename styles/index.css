@@ -212,7 +212,38 @@ nav{
 }
 
 /* buttons icon related styles here */
+.buttons-container{
+    max-width: 90%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
  
+.button-content button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+    font-family: Work Sans;
+    font-size: 20px; 
+    font-weight: 600; 
+    border: none;
+    border-radius: 50px;
+    padding: 5px 10px;
+    background: none;
+}
+.button-content button:hover{
+    border: 1px solid var(--primary-color); 
+    color: var(--primary-color);
+    cursor: grab;
+}
+.button-content button img{
+    height: 50px;
+    margin-right: 20px;
+}
 
 /* footer related styles */
 
