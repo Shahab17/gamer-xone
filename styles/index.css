@@ -36,7 +36,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background: #FFF;
+    background: rgba(250, 235, 215, 0.411);
+    padding-bottom: 20px;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .gamer-logo{
@@ -142,7 +143,9 @@ nav{
     align-items: center;
     padding: 10px 20px;
     gap: 50px;
-    border: 2px solid red;
+}
+.we-gamer-img img{
+    width: 100%;
 }
 .we-gamer-content{
     width: 500px;
@@ -327,7 +330,7 @@ nav{
 .footer{
     padding: 50px;
     height: 650px;
-    background-color: #0b0223;
+    background-color:rgba(250, 235, 215, 0.411);
 }
 .footer-title{
     display: flex;
@@ -340,14 +343,14 @@ nav{
     margin-right: 20px;
 }
 .footer-title h2{
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: Work Sans;
     font-size: 45px;
     font-weight: 700;
 }
 .footer-menus{
     list-style: none;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -364,7 +367,7 @@ nav{
     text-align: center;
 }
 .footer-icons span{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 30px;
     margin-right: 40px; 
     cursor: pointer;
@@ -378,13 +381,13 @@ nav{
 }
 .footer-cookie li{
     margin-right: 50px;
-    color: rgba(255, 255, 255, 0.60);  
+    color: rgba(0, 0, 0, 0.701);  
     font-family: Work Sans;
     font-size: 16px;  
     font-weight: 500;
 }
 .footer-copyright{
-    color:  rgba(255, 255, 255, 0.60);
+    color:  rgba(0, 0, 0, 0.705);
     text-align: center;
     margin-top: 15px;
 }
