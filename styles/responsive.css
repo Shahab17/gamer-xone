@@ -75,7 +75,7 @@
         font-size: 12px;
     }
     .buttons-container{
-        margin-top: 100px;
+        margin-top: 200px;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
     }
