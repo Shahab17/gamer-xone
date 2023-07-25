@@ -40,6 +40,42 @@
     .play-games-content{
         text-align: center;
     }
+    .footer{
+        padding: 7px;
+    }
+    .footer-menus{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        margin-top: 10px;
+         margin-bottom: 14px;
+    }
+    .footer-menus li{
+        margin:  10px;
+        /* margin-right: 10px;
+        margin-bottom: 10px; */
+        font-size: 12px;
+    }
+    .footer-icons{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        margin-top: 10px;
+
+    }
+    .footer-icons span{
+       margin: 10px;
+    }
+    .footer-cookie {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 15px;
+        justify-items: center;
+    }
+    .footer-cookie li {
+        margin: 10px;
+        font-size: 12px;
+    }
     
     
 }
